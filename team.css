@@ -1,0 +1,50 @@
+.team{
+    margin: 10px;
+}
+
+.team_members{
+    display: flex;
+    justify-content: center;
+}
+
+.member{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.member_1{
+    background-image: url("https://images.unsplash.com/photo-1584997159889-8bb96d0a2217?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+}
+
+.member_2{
+    background-image: url("https://images.unsplash.com/photo-1612024638904-bda171b93c66?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGZhY2VzfGVufDB8MnwwfGJsYWNrX2FuZF93aGl0ZXw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+}
+
+.member_3{
+    background-image: url("https://images.unsplash.com/photo-1570731102433-34470efb6acf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzh8fGZhY2VzfGVufDB8MnwwfGJsYWNrX2FuZF93aGl0ZXw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+}
+
+.leader_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    background-position: center;
+    background-size: cover;}
+
+.team_info, .info_leader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .team{
+        width: 65%;
+        margin: 0 auto;
+    }
+}
