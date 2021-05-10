@@ -1,0 +1,25 @@
+
+header{
+    background-color: var(--main-theme);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 65%;
+}
+
+.nav_logo{
+    color: var(--white-text);
+    font-size: 30px;
+}
+
+.nav_search input{
+    background-image: url("https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon-by-vexels.png");
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    padding: 5px;
+}

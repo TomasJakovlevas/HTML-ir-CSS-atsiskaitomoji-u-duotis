@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    transition: 500ms;
+
+    padding: 0;
+    margin: 0;
+}
+
+
+:root{
+--main-theme:  rgb(71, 71, 71);
+--footer-theme:  rgb(182, 211, 229);
+
+--white-text: rgb(255, 255, 255);
+}
+
