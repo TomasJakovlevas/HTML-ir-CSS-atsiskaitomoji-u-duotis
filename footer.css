@@ -1,0 +1,30 @@
+
+footer{
+    background-color: var(--main-theme);
+}
+
+.blue_line{
+    background-color: blue;
+    height: 10px;
+}
+
+.footer_container{
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer_info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+@media screen and (min-width:768px) {
+    .footer_container{
+        width: 60%;
+        flex-direction: row;
+    }
+}
