@@ -9,9 +9,7 @@ nav{
     flex-direction: column;
     margin: 0 auto;
     width: 65%;
-
 }
-
 
 .nav_logo{
     color: var(--white-text);
@@ -34,5 +32,12 @@ nav{
 
     .nav_search input{
         margin: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    nav{
+        width: 50%;
     }
 }
