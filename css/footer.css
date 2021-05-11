@@ -4,7 +4,7 @@ footer{
 }
 
 .blue_line{
-    background-color: blue;
+    background-color: var(--blue);
     height: 10px;
 }
 
@@ -22,9 +22,25 @@ footer{
     flex-direction: column;
 }
 
+.footer_info h4{
+    color: var(--blue);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: white;
+}
+
+.footer_info span{
+    color: white;
+}
+
 @media screen and (min-width:768px) {
     .footer_container{
-        width: 60%;
+        width: 40%;
         flex-direction: row;
     }
 }
